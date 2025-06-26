@@ -1,5 +1,5 @@
 {
-  "name": "job-portal",
+  "name": "Job-Portal",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -39,21 +39,15 @@
     "react-fast-marquee": "^1.6.5",
     "react-redux": "^9.2.0",
     "react-router-dom": "^6.28.0",
-    "react-scripts": "^0.0.0",
+    "react-scripts": "^5.0.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build --env=ESLINT_NO_DEV=true --env=ESLINT_DISABLE=true",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
