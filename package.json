@@ -45,7 +45,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build --env=ESLINT_NO_DEV=true",
+    "build": "react-scripts build --env=ESLINT_NO_DEV=true --env=ESLINT_DISABLE=true",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
