@@ -3,15 +3,42 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@mantine/carousel": "^7.14.1",
+    "@mantine/core": "^7.14.1",
+    "@mantine/dates": "^7.14.2",
+    "@mantine/form": "^7.15.3",
+    "@mantine/hooks": "^7.14.1",
+    "@mantine/notifications": "^7.14.3",
+    "@mantine/tiptap": "^7.14.1",
+    "@reduxjs/toolkit": "^2.5.0",
+    "@tabler/icons-react": "^3.22.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@tiptap/extension-highlight": "^2.10.2",
+    "@tiptap/extension-link": "^2.10.2",
+    "@tiptap/extension-subscript": "^2.10.2",
+    "@tiptap/extension-superscript": "^2.10.2",
+    "@tiptap/extension-text-align": "^2.10.2",
+    "@tiptap/extension-underline": "^2.10.2",
+    "@tiptap/pm": "^2.10.2",
+    "@tiptap/react": "^2.10.2",
+    "@tiptap/starter-kit": "^2.10.2",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.119",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
+    "axios": "^1.7.8",
+    "dayjs": "^1.11.13",
+    "dompurify": "^3.2.1",
+    "embla-carousel-react": "^7.1.0",
+    "jwt-decode": "^4.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-fast-marquee": "^1.6.5",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.28.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
@@ -39,5 +66,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
   }
 }
